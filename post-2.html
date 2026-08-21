@@ -3,141 +3,1000 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Step-by-step guide to creating a professional portfolio website using HTML5, CSS3, and JavaScript.">
-    <title>How I Built My Personal Portfolio Website | Blog</title>
+
+    <meta name="description"
+        content="A structured trading education curriculum covering market foundations, price action, market structure, technical analysis, liquidity, SMC, ICT, Wyckoff, order flow, crypto analysis, and professional trading practices.">
+
+    <title>Complete Trading Curriculum: Basic to Advanced | Blog</title>
+
     <link rel="icon" href="image.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="blog-styles.css" />
-    
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog-styles.css">
 </head>
+
 <body>
 
+    <!-- Header -->
     <div id="header"></div>
 
+
+    <!-- =========================
+         POST HERO
+    ========================== -->
+
     <section class="post-hero">
-        <img src="my.png" alt="Post Hero">
+
+        <img src="trading-curriculum.png"
+             alt="Complete Trading Curriculum">
+
         <div class="post-hero-overlay"></div>
+
         <div class="post-hero-content">
-            <span class="post-category">Web Development</span>
-            <h1 class="post-title">How I Built My Personal Portfolio Website</h1>
+
+            <span class="post-category">
+                Trading Education
+            </span>
+
+            <h1 class="post-title">
+                Complete Trading Curriculum:
+                Basic to Advanced
+            </h1>
+
             <div class="post-meta">
-                <span><i class="far fa-calendar"></i> June 1, 2026</span>
-                <span><i class="far fa-clock"></i> 10 min read</span>
-                <span><i class="far fa-user"></i> Muvindu Ransara</span>
+
+                <span>
+                    <i class="far fa-calendar"></i>
+                    June 10, 2026
+                </span>
+
+                <span>
+                    <i class="far fa-clock"></i>
+                    18 min read
+                </span>
+
+                <span>
+                    <i class="far fa-user"></i>
+                    Muvindu Ransara
+                </span>
+
             </div>
+
         </div>
+
     </section>
 
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
     <main class="blog-main">
+
         <div class="container">
+
             <div class="post-wrapper">
+
                 <article class="post-content">
+
+
+                    <!-- =========================
+                         TABLE OF CONTENTS
+                    ========================== -->
+
                     <div class="toc">
-                        <h4><i class="fas fa-list"></i> Table of Contents</h4>
+
+                        <h4>
+                            <i class="fas fa-list"></i>
+                            Table of Contents
+                        </h4>
+
                         <ul>
-                            <li><a href="#intro">Introduction</a></li>
-                            <li><a href="#planning">Planning & Design</a></li>
-                            <li><a href="#development">Development Process</a></li>
-                            <li><a href="#optimization">Optimization</a></li>
-                            <li><a href="#deployment">Deployment</a></li>
-                            <li><a href="#lessons">Lessons Learned</a></li>
+
+                            <li>
+                                <a href="#intro">
+                                    Introduction
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage1">
+                                    Stage 1 – Market Foundations
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage2">
+                                    Stage 2 – Structure Trading
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage3">
+                                    Stage 3 – Technical Tools
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage4">
+                                    Stage 4 – Smart Money Concepts
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage5">
+                                    Stage 5 – ICT Framework
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage6">
+                                    Stage 6 – Market Cycle Theory
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage7">
+                                    Stage 7 – Professional Market Understanding
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage8">
+                                    Stage 8 – Order Flow
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage9">
+                                    Stage 9 – Crypto-Specific Analysis
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#stage10">
+                                    Stage 10 – Professional Execution
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#priority">
+                                    Recommended Learning Order
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#conclusion">
+                                    Conclusion
+                                </a>
+                            </li>
+
                         </ul>
+
                     </div>
 
-                    <h2 id="intro">Introduction</h2>
-                    <p>Building a professional portfolio website is one of the best investments a developer can make. It showcases your skills, projects, and personality to potential employers and clients. In this article, I'll walk you through my journey of building this portfolio website from scratch.</p>
 
-                    <h2 id="planning">Planning & Design</h2>
-                    <p>The first step was to plan the website structure and design. I used Figma to create mockups and decided on a modern, dark-themed design with a professional layout.</p>
-                    <p><strong>Key design decisions:</strong></p>
+                    <!-- =========================
+                         INTRODUCTION
+                    ========================== -->
+
+                    <h2 id="intro">
+                        Introduction
+                    </h2>
+
+                    <p>
+                        Trading is a broad subject that combines market mechanics,
+                        price action, risk management, technical analysis,
+                        psychology, and disciplined execution.
+                    </p>
+
+                    <p>
+                        Instead of learning random indicators or isolated
+                        strategies, a structured curriculum makes it easier to
+                        understand how different concepts connect with one another.
+                    </p>
+
+                    <p>
+                        This curriculum is organized into ten stages, beginning
+                        with basic market concepts and gradually moving toward
+                        advanced topics such as market structure, liquidity,
+                        volume profile, order flow, and professional execution.
+                    </p>
+
+                    <div class="alert alert-warning">
+
+                        <strong>Educational note:</strong>
+                        This curriculum is intended for educational purposes.
+                        Trading financial markets involves substantial risk.
+                        Concepts should be studied and practiced in a simulated
+                        environment before considering any real-money activity.
+
+                    </div>
+
+
+                    <!-- =========================
+                         STAGE 1
+                    ========================== -->
+
+                    <h2 id="stage1">
+                        🟢 Stage 1: Market Foundations
+                    </h2>
+
+                    <p>
+                        The first stage establishes the vocabulary and mechanics
+                        required to understand financial markets.
+                    </p>
+
+                    <h3>
+                        Module 1: Market Basics
+                    </h3>
+
                     <ul>
-                        <li>Dark theme for reduced eye strain and modern look</li>
-                        <li>Mobile-first responsive design</li>
-                        <li>Smooth animations and transitions</li>
-                        <li>Clear navigation and information hierarchy</li>
+                        <li>What is a market?</li>
+                        <li>Spot vs Futures</li>
+                        <li>Long vs Short</li>
+                        <li>Bid and Ask</li>
+                        <li>Market Orders</li>
+                        <li>Limit Orders</li>
+                        <li>Leverage</li>
+                        <li>Margin</li>
+                        <li>Liquidation</li>
                     </ul>
 
-                    <h2 id="development">Development Process</h2>
-                    <p>I used HTML5, CSS3, and vanilla JavaScript to build the website. The development process involved:</p>
+
+                    <h3>
+                        Module 2: Candlesticks
+                    </h3>
+
+                    <ul>
+                        <li>Candle anatomy</li>
+                        <li>Bullish candles</li>
+                        <li>Bearish candles</li>
+                        <li>Rejection candles</li>
+                        <li>Engulfing patterns</li>
+                        <li>Pin bars</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 3: Basic Price Action
+                    </h3>
+
+                    <ul>
+                        <li>Trend</li>
+                        <li>Range</li>
+                        <li>Breakout</li>
+                        <li>Pullback</li>
+                        <li>Consolidation</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 4: Support & Resistance
+                    </h3>
+
+                    <ul>
+                        <li>Horizontal levels</li>
+                        <li>Dynamic levels</li>
+                        <li>Psychological levels</li>
+                        <li>Breakouts</li>
+                        <li>Retests</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 5: Risk Management
+                    </h3>
+
+                    <ul>
+                        <li>Risk/Reward</li>
+                        <li>Position sizing</li>
+                        <li>Stop Loss</li>
+                        <li>Take Profit</li>
+                        <li>Drawdown</li>
+                        <li>Trading psychology basics</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 2
+                    ========================== -->
+
+                    <h2 id="stage2">
+                        🟡 Stage 2: Structure Trading
+                    </h2>
+
+                    <h3>
+                        Module 6: Market Structure
+                    </h3>
+
+                    <ul>
+                        <li>HH – Higher High</li>
+                        <li>HL – Higher Low</li>
+                        <li>LH – Lower High</li>
+                        <li>LL – Lower Low</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 7: Structure Events
+                    </h3>
+
+                    <ul>
+                        <li>BOS – Break of Structure</li>
+                        <li>CHOCH – Change of Character</li>
+                        <li>MSS – Market Structure Shift</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 8: Trend Analysis
+                    </h3>
+
+                    <ul>
+                        <li>Trend continuation</li>
+                        <li>Trend reversal</li>
+                        <li>Internal structure</li>
+                        <li>External structure</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 9: Multi-Timeframe Analysis
+                    </h3>
+
+                    <ul>
+                        <li>Daily bias</li>
+                        <li>4H structure</li>
+                        <li>1H confirmation</li>
+                        <li>15M execution</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 3
+                    ========================== -->
+
+                    <h2 id="stage3">
+                        🟠 Stage 3: Technical Tools
+                    </h2>
+
+                    <h3>
+                        Module 10: Fibonacci
+                    </h3>
+
+                    <ul>
+                        <li>Retracement</li>
+                        <li>Extension</li>
+                        <li>0.5 level</li>
+                        <li>0.618 level</li>
+                        <li>0.705 level</li>
+                        <li>1.618 targets</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 11: Indicators
+                    </h3>
+
+                    <ul>
+                        <li>EMA</li>
+                        <li>SMA</li>
+                        <li>RSI</li>
+                        <li>MACD</li>
+                        <li>Bollinger Bands</li>
+                        <li>ATR</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 12: Volume Analysis
+                    </h3>
+
+                    <ul>
+                        <li>Volume spikes</li>
+                        <li>Breakout confirmation</li>
+                        <li>Climax volume</li>
+                        <li>Divergence</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 4
+                    ========================== -->
+
+                    <h2 id="stage4">
+                        🔵 Stage 4: Smart Money Concepts
+                    </h2>
+
+                    <h3>
+                        Module 13: Liquidity
+                    </h3>
+
+                    <ul>
+                        <li>Buy-side liquidity</li>
+                        <li>Sell-side liquidity</li>
+                        <li>Equal highs</li>
+                        <li>Equal lows</li>
+                        <li>Stop hunts</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 14: SMC Core Concepts
+                    </h3>
+
+                    <ul>
+                        <li>Inducement</li>
+                        <li>Liquidity sweep</li>
+                        <li>BOS</li>
+                        <li>CHOCH</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 15: Order Blocks
+                    </h3>
+
+                    <ul>
+                        <li>Bullish OB</li>
+                        <li>Bearish OB</li>
+                        <li>Mitigation</li>
+                        <li>Invalidation</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 16: Fair Value Gaps
+                    </h3>
+
+                    <ul>
+                        <li>FVG</li>
+                        <li>Imbalance</li>
+                        <li>Rebalancing</li>
+                        <li>Entry models</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 5
+                    ========================== -->
+
+                    <h2 id="stage5">
+                        🟣 Stage 5: ICT Framework
+                    </h2>
+
+                    <p>
+                        The ICT framework is associated with
+                        Michael J. Huddleston and includes concepts related
+                        to liquidity, market structure, time, and price delivery.
+                    </p>
+
+                    <h3>
+                        Module 17: ICT Foundations
+                    </h3>
+
+                    <ul>
+                        <li>PD Arrays</li>
+                        <li>Liquidity pools</li>
+                        <li>Dealing ranges</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 18: OTE
+                    </h3>
+
+                    <ul>
+                        <li>Optimal Trade Entry</li>
+                        <li>Premium</li>
+                        <li>Discount</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 19: Time Concepts
+                    </h3>
+
+                    <ul>
+                        <li>London Session</li>
+                        <li>New York Session</li>
+                        <li>Kill Zones</li>
+                        <li>Judas Swing</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 20: ICT Models
+                    </h3>
+
+                    <ul>
+                        <li>Power of Three</li>
+                        <li>Silver Bullet</li>
+                        <li>Daily Bias</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 6
+                    ========================== -->
+
+                    <h2 id="stage6">
+                        🟤 Stage 6: Market Cycle Theory
+                    </h2>
+
+                    <h3>
+                        Module 21: Wyckoff
+                    </h3>
+
+                    <p>
+                        Associated with Richard Wyckoff.
+                    </p>
+
+                    <ul>
+                        <li>Accumulation</li>
+                        <li>Distribution</li>
+                        <li>Spring</li>
+                        <li>Upthrust</li>
+                        <li>Composite Operator</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 22: Elliott Wave
+                    </h3>
+
+                    <p>
+                        Associated with Ralph Nelson Elliott.
+                    </p>
+
+                    <ul>
+                        <li>5-wave impulse</li>
+                        <li>ABC correction</li>
+                        <li>Extensions</li>
+                        <li>Alternation</li>
+                        <li>Invalidation</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 23: Supply & Demand
+                    </h3>
+
+                    <ul>
+                        <li>Demand zones</li>
+                        <li>Supply zones</li>
+                        <li>Fresh zones</li>
+                        <li>Zone strength</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 7
+                    ========================== -->
+
+                    <h2 id="stage7">
+                        🔴 Stage 7: Professional Market Understanding
+                    </h2>
+
+                    <h3>
+                        Module 24: Auction Market Theory
+                    </h3>
+
+                    <ul>
+                        <li>Fair value</li>
+                        <li>Acceptance</li>
+                        <li>Rejection</li>
+                        <li>Balance</li>
+                        <li>Imbalance</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 25: Volume Profile
+                    </h3>
+
+                    <ul>
+                        <li>POC</li>
+                        <li>VAH</li>
+                        <li>VAL</li>
+                        <li>HVN</li>
+                        <li>LVN</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 26: Market Profile
+                    </h3>
+
+                    <ul>
+                        <li>TPO</li>
+                        <li>Value area</li>
+                        <li>Session profile</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 8
+                    ========================== -->
+
+                    <h2 id="stage8">
+                        ⚫ Stage 8: Order Flow
+                    </h2>
+
+                    <h3>
+                        Module 27: Futures Market Mechanics
+                    </h3>
+
+                    <ul>
+                        <li>Open Interest</li>
+                        <li>Funding Rates</li>
+                        <li>Liquidations</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 28: Order Flow
+                    </h3>
+
+                    <ul>
+                        <li>Delta</li>
+                        <li>CVD</li>
+                        <li>Aggressive buyers</li>
+                        <li>Aggressive sellers</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 29: Footprint Charts
+                    </h3>
+
+                    <ul>
+                        <li>Bid/Ask</li>
+                        <li>Imbalance</li>
+                        <li>Absorption</li>
+                        <li>Exhaustion</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 9
+                    ========================== -->
+
+                    <h2 id="stage9">
+                        🟠 Stage 9: Crypto-Specific Analysis
+                    </h2>
+
+                    <h3>
+                        Module 30: On-Chain Analysis
+                    </h3>
+
+                    <ul>
+                        <li>Exchange inflows</li>
+                        <li>Exchange outflows</li>
+                        <li>Whale activity</li>
+                        <li>Stablecoin flows</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 31: Sentiment Analysis
+                    </h3>
+
+                    <ul>
+                        <li>Fear & Greed</li>
+                        <li>Market sentiment</li>
+                        <li>Positioning</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 32: Narrative Analysis
+                    </h3>
+
+                    <ul>
+                        <li>ETF narratives</li>
+                        <li>AI narratives</li>
+                        <li>Layer 1 narratives</li>
+                        <li>Macro news impact</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         STAGE 10
+                    ========================== -->
+
+                    <h2 id="stage10">
+                        🟣 Stage 10: Professional Execution
+                    </h2>
+
+                    <h3>
+                        Module 33: Trading Journal
+                    </h3>
+
+                    <ul>
+                        <li>Trade review</li>
+                        <li>Error tracking</li>
+                        <li>Statistics</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 34: Strategy Development
+                    </h3>
+
+                    <ul>
+                        <li>Rules</li>
+                        <li>Edge</li>
+                        <li>Backtesting</li>
+                        <li>Forward testing</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 35: Psychology
+                    </h3>
+
+                    <ul>
+                        <li>Discipline</li>
+                        <li>Emotional control</li>
+                        <li>Consistency</li>
+                        <li>Process focus</li>
+                    </ul>
+
+
+                    <h3>
+                        Module 36: Portfolio & Capital Management
+                    </h3>
+
+                    <ul>
+                        <li>Risk allocation</li>
+                        <li>Exposure control</li>
+                        <li>Scaling</li>
+                        <li>Compounding</li>
+                    </ul>
+
+
+                    <!-- =========================
+                         PRIORITY
+                    ========================== -->
+
+                    <h2 id="priority">
+                        🏆 Recommended Learning Order
+                    </h2>
+
+                    <p>
+                        Trying to learn every trading concept simultaneously can
+                        become overwhelming. A more structured approach is to
+                        build knowledge progressively.
+                    </p>
+
                     <ol>
-                        <li>Creating semantic HTML structure</li>
-                        <li>Styling with modern CSS (Flexbox, Grid, CSS Variables)</li>
-                        <li>Adding interactivity with JavaScript</li>
-                        <li>Testing across different browsers and devices</li>
+
+                        <li>Price Action</li>
+
+                        <li>Market Structure</li>
+
+                        <li>Risk Management</li>
+
+                        <li>Multi-Timeframe Analysis</li>
+
+                        <li>Liquidity Concepts</li>
+
+                        <li>FVG & Order Blocks</li>
+
+                        <li>Volume Analysis</li>
+
+                        <li>Time-Based Market Concepts</li>
+
+                        <li>Wyckoff</li>
+
+                        <li>Volume Profile / AMT</li>
+
+                        <li>Order Flow</li>
+
+                        <li>Sentiment & On-Chain Analysis</li>
+
+                        <li>Elliott Wave — optional specialization</li>
+
                     </ol>
 
-                    <h2 id="optimization">Optimization</h2>
-                    <p>Performance optimization was crucial. I implemented:</p>
-                    <ul>
-                        <li>Image optimization and lazy loading</li>
-                        <li>Minification of CSS and JavaScript</li>
-                        <li>Caching strategies</li>
-                        <li>SEO optimization with meta tags</li>
-                    </ul>
 
-                    <h2 id="deployment">Deployment</h2>
-                    <p>The website was deployed using GitHub Pages for hosting and custom domain setup. This provides free hosting with excellent performance.</p>
+                    <!-- =========================
+                         FINAL NOTE
+                    ========================== -->
 
-                    <h2 id="lessons">Lessons Learned</h2>
-                    <p>Building this portfolio taught me valuable lessons about web development, design, and personal branding. It's not just about showing off your skills, but telling your story effectively.</p>
+                    <h2 id="conclusion">
+                        Conclusion
+                    </h2>
+
+                    <p>
+                        A strong understanding of markets comes from building
+                        knowledge step by step rather than searching for a single
+                        strategy or indicator.
+                    </p>
+
+                    <p>
+                        Start with market mechanics, price action, structure and
+                        risk management. Once those foundations are clear,
+                        gradually explore more specialized frameworks such as
+                        liquidity analysis, Wyckoff, volume profile and order flow.
+                    </p>
+
+                    <p>
+                        Most importantly, focus on developing a repeatable
+                        learning and review process. Use historical charts,
+                        simulated environments, journaling and statistical review
+                        to test whether your ideas actually hold up over time.
+                    </p>
+
+                    <div class="alert alert-info">
+
+                        <strong>Remember:</strong>
+                        No trading framework guarantees profits. Risk management,
+                        critical thinking and evidence-based testing are more
+                        important than memorizing terminology.
+
+                    </div>
+
+
+                    <!-- =========================
+                         SHARE
+                    ========================== -->
 
                     <div class="share-buttons">
-                        <a href="#" class="share-btn"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="share-btn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="share-btn"><i class="fab fa-facebook"></i></a>
+
+                        <a href="#"
+                           class="share-btn"
+                           aria-label="Share on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a href="#"
+                           class="share-btn"
+                           aria-label="Share on LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="#"
+                           class="share-btn"
+                           aria-label="Share on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
                     </div>
+
+
+                    <!-- =========================
+                         AUTHOR
+                    ========================== -->
 
                     <div class="author-box">
-                        <img src="my.png" alt="Muvindu Ransara" class="author-box-image">
+
+                        <img src="my.png"
+                             alt="Muvindu Ransara"
+                             class="author-box-image">
+
                         <div class="author-box-content">
-                            <h3>About the Author</h3>
-                            <p><strong>Muvindu Ransara</strong></p>
-                            <p>Full-Stack Web Developer passionate about creating beautiful and functional websites.</p>
+
+                            <h3>
+                                About the Author
+                            </h3>
+
+                            <p>
+                                <strong>Muvindu Ransara</strong>
+                            </p>
+
+                            <p>
+                                Software developer and technology enthusiast
+                                interested in programming, technology,
+                                financial markets and continuous learning.
+                            </p>
+
                         </div>
+
                     </div>
+
+
+                    <!-- =========================
+                         NAVIGATION
+                    ========================== -->
 
                     <nav class="post-navigation">
-                        <a href="post-1.html" class="nav-post">
-                            <small><i class="fas fa-arrow-left"></i> Previous</small>
-                            <span class="nav-title">Java Programming Guide</span>
+
+                        <a href="index.html"
+                           class="nav-post">
+
+                            <small>
+                                <i class="fas fa-arrow-left"></i>
+                                Back to Blog
+                            </small>
+
+                            <span class="nav-title">
+                                All Blog Posts
+                            </span>
+
                         </a>
-                        <a href="post-3.html" class="nav-post nav-post-right">
-                            <small>Next <i class="fas fa-arrow-right"></i></small>
-                            <span class="nav-title">Building an AI Voice Assistant</span>
-                        </a>
+
                     </nav>
+
+
                 </article>
 
-                <aside class="blog-sidebar" style="height: fit-content; position: sticky; top: 100px;">
+
+                <!-- =========================
+                     SIDEBAR
+                ========================== -->
+
+                <aside class="blog-sidebar"
+                       style="height: fit-content; position: sticky; top: 100px;">
+
                     <div class="sidebar-widget">
-                        <h3 class="widget-title">Navigation</h3>
+
+                        <h3 class="widget-title">
+                            Navigation
+                        </h3>
+
                         <div class="categories-list">
+
                             <div class="category-item">
-                                <a class="category-link" href="index.html">← Back to Blog</a>
+
+                                <a class="category-link"
+                                   href="index.html">
+
+                                    ← Back to Blog
+
+                                </a>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </aside>
+
             </div>
+
         </div>
+
     </main>
 
-        <div id="footer"></div>
 
+    <!-- Footer -->
+    <div id="footer"></div>
+
+
+    <!-- Scripts -->
 
     <script>
-        function toggleHeader() { document.querySelector('header').classList.toggle('header-open'); }
-        function closeHeader() { document.querySelector('header').classList.remove('header-open'); }
+        function toggleHeader() {
+            document
+                .querySelector('header')
+                .classList.toggle('header-open');
+        }
+
+        function closeHeader() {
+            document
+                .querySelector('header')
+                .classList.remove('header-open');
+        }
     </script>
 
-        <!-- Scripts -->
     <script src="blog-script.js"></script>
-
     <script src="script.js"></script>
+
 </body>
 </html>
