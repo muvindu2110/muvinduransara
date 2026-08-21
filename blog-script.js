@@ -27,7 +27,7 @@ const blogPosts = [
         category: "Web Development",
         date: "June 1, 2026",
         readingTime: 10,
-        image: "potfoliyo.png",
+        image: "potfoliyos.png",
         tags: ["web-development", "portfolio", "html", "css", "javascript"]
     },
     {
