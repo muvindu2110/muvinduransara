@@ -17,7 +17,7 @@ const blogPosts = [
         category: "Crypto Trading",
         date: "Aug 21, 2026",
         readingTime: 18,
-        image: "trading.png",
+        image: "crypto.webp",
         tags: ["trading", "crypto", "tutorial", "technical-analysis"]
     },
     {
