@@ -12,13 +12,13 @@ const blogPosts = [
     },
     {
         id: 2,
-        title: "Java Programming Complete Beginner Guide",
-        excerpt: "A comprehensive guide to getting started with Java programming. Learn the fundamentals, setup your environment, and write your first Java program from scratch.",
-        category: "Java",
-        date: "June 3, 2026",
-        readingTime: 12,
-        image: "java.png",
-        tags: ["java", "programming", "tutorial", "beginner"]
+        title: "Complete Trading Curriculum: Basic to Advanced",
+        excerpt: "A structured trading education roadmap covering market foundations, price action, market structure, technical analysis, liquidity concepts, market cycles, order flow, crypto analysis, and professional trading practices.",
+        category: "Crypto Trading",
+        date: "Aug 21, 2026",
+        readingTime: 18,
+        image: "trading.png",
+        tags: ["trading", "crypto", "tutorial", "technical-analysis"]
     },
     {
         id: 3,
