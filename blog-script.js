@@ -27,18 +27,25 @@ const blogPosts = [
         category: "Web Development",
         date: "June 1, 2026",
         readingTime: 10,
-        image: "potfoliyos.png",
+        image: "potfoliyo.png",
         tags: ["web-development", "portfolio", "html", "css", "javascript"]
     },
     {
         id: 4,
-        title: "Building an AI Voice Assistant Using ESP32",
-        excerpt: "Learn how to build a voice-controlled assistant using ESP32 microcontroller and AI integration. This project combines IoT and artificial intelligence.",
-        category: "IoT",
-        date: "May 28, 2026",
-        readingTime: 15,
-        image: "ai_bot.png",
-        tags: ["iot", "esp32", "ai", "voice-assistant", "microcontroller"]
+        title: "Trading Psychology: The Mindset Behind Consistent Trading",
+        excerpt: "A practical guide to trading psychology, uncertainty, probability thinking, emotional control, losses, discipline, consistency, and building a professional trading mindset.",
+        category: "Trading Psychology",
+        date: "June 12, 2026",
+        readingTime: 20,
+        image: "images.jpeg",
+        tags: [
+            "trading-psychology",
+            "mindset",
+            "discipline",
+            "risk-management",
+            "probability",
+            "trading"
+        ]
     },
     {
         id: 5,
